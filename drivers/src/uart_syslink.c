@@ -191,7 +191,7 @@ bool uartTest(void)
   return isInit;
 }
 
-//gps module start
+//code by khg 2015-03-27 19:30
 void uartRxTask(void *param)
 {
   uint8_t c;
@@ -209,7 +209,7 @@ void uartRxTask(void *param)
     }
   }
 }
-//end of GPS module
+//code by khg 2015-03-27 19:30
 
 
 bool uartGetDataWithTimout(uint8_t *c)
